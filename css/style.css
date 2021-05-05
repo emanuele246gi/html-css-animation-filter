@@ -1,4 +1,4 @@
-.ex-1-square, .ex-2-square{
+.ex-1-square, .ex-2-square, .ex-7-square, .ex-8-square, .ex-9-square{
     transition: 2s;
 }
 
@@ -19,5 +19,17 @@
 }
 
 .ex-4-square:hover{
-    display: none;
+    opacity: 0;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
 }
