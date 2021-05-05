@@ -48,3 +48,36 @@
     border-radius: 25px;
     transform: scale(1.5);
 }
+
+.ex-10-icon{
+    animation: youspinmeright 1s linear infinite;
+}
+
+@keyframes youspinmeright{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: spinAlittlebit 2s linear;
+}
+
+@keyframes spinAlittlebit{
+    0%{transform: rotate(0);}
+    90%{transform: rotate(360deg);}
+    100%{transform: rotate(0);}
+}
+
+.ex-11-icon:hover{
+    animation: spinAlittlebit 2s linear;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: topwhite 2s linear;
+}
+
+@keyframes topwhite{
+    50%{left: calc(100% - 60px);}
+    100%{right: 100%;}
+}
