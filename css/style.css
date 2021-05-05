@@ -1,7 +1,16 @@
-.ex-1-square{
+.ex-1-square, .ex-2-square{
     transition: 2s;
+}
+
+.ex-3-square, .ex-4-square, .ex-5-square{
+    transition: 1s;
 }
 
 .ex-1-square:hover{
     background-color: red;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+
