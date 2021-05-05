@@ -14,3 +14,10 @@
     width: 100%;
 }
 
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+.ex-4-square:hover{
+    display: none;
+}
